@@ -1,169 +1,192 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar template customized for Zahavah Rojer
-	html5up.net | @ajlkn
--->
 <html>
 <head>
-	<title>Zahavah Rojer</title> <!-- Custom: Change site title -->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <title>Zahavah Rojer</title> <!-- 🔧 Change site title here -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+  <!-- ✅ Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- ✅ Your Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- ✅ Easy to edit embedded styles -->
+  <style>
+    /* === BASE PAGE STYLES === */
+    body {
+      font-family: 'Source Sans Pro', sans-serif; /* 🔧 Change font family */
+      background: #703a75;                         /* 🔧 Page background color */
+      color: #6a3f22;                                 /* 🔧 Default text color */
+      margin: 0;
+    }
+
+    h1, h2, h3 {
+      color: #6a3f22;                                 /* 🔧 Heading text color */
+    }
+
+    a {
+      color: #6a3f22;                              /* 🔧 Link color */
+    }
+
+    a:hover {
+      color: #6a3f22;                              /* 🔧 Link hover color */
+    }
+
+    /* === HEADER / SIDEBAR === */
+    #header {
+      background: #703a75;                         /* 🔧 Header background */
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    #header a {
+      color: #6a3f22;                              /* 🔧 Header link color */
+    }
+
+    /* === FOOTER === */
+    #footer {
+      background: #703a75;                         /* 🔧 Footer background */
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* === BUTTONS === */
+    .button.primary {
+      background: #0077cc;                         /* 🔧 Button color */
+      color: white;
+      padding: 0.5em 1.5em;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .button.primary:hover {
+      background: #005fa3;
+    }
+
+    /* === MAIN IMAGE === */
+    .image.main img {
+      max-height: 300px;                           /* 🔧 Adjust banner height */
+      width: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+  </style>
 </head>
-<body class="is-preload">
+<body>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+  <!-- === HEADER SECTION === -->
+  <section id="header">
+    <header>
+      <span class="image avatar"><img src="images/avatar.jpg" alt="[DEFAULT: Avatar Image]" /></span> <!-- 🔧 Replace with your image -->
+      <h1 id="logo"><a href="#">Zahavah (Havi) Rojer</a></h1> <!-- 🔧 Your Name -->
+      <p>
+      <a href="https://pronouns.org/they-them">pronouns: they/them</a> <br> Ph.D. Student in Microbiology <br> Hendry Lab <br> Cornell University
+      </p> <!-- 🔧 Add your own intro -->
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#one" class="active">Research</a></li>
+        <li><a href="#two">Skills & Passions</a></li>
+        <li><a href="#three">Teaching</a></li>
+        <li><a href="#three">About Me</a></li>
+        <li><a href="#four">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<!-- Custom: Replace logo image -->
-			<span class="logo"><img src="images/logo.svg" alt="Lab Logo" width="150" /></span>
-			<!-- Custom: Your name -->
-			<h1>Zahavah (Havi) Rojer</h1>
-			<!-- Custom: Tagline or short bio -->
-			<p>Ph.D. Student in Microbiology<br />
-				<a href="https://toryhendry.weebly.com/">Hendry Lab - Host-Microbe Interactions</a><br />
-				Cornell University
-			</p>
-		</header>
+  <!-- === PAGE WRAPPER === -->
+  <div id="wrapper">
+    <div id="main">
 
-		<!-- Navigation -->
-		<nav id="nav">
-			<ul>
-				<!-- Custom: Update section names/anchors -->
-				<li><a href="#intro" class="active">Research</a></li>
-				<li><a href="#first">Skills</a></li>
-				<li><a href="#second">About Me</a></li>
-				<li><a href="#cta">Contact</a></li>
-			</ul>
-		</nav>
+      <!-- === SECTION ONE: RESEARCH === -->
+      <section id="one">
+        <div class="image main" data-position="center">
+          <img src="images/banner.jpg" alt="[DEFAULT: Banner]" /> <!-- 🔧 Replace banner image -->
+        </div>
+        <div class="container">
+            <h3>Research</h3> <!-- 🔧 Update heading -->
+          <p>I study host-microbe interactions, focusing on how symbiotic bacteria influence their insect hosts. My research explores microbial diversity, evolution, and ecological function, particularly in sap-feeding insects.</p> <!-- 🔧 Replace text -->
+        </div>
+      </section>
 
-		<!-- Main content -->
-		<div id="main">
+      <!-- === SECTION TWO: SKILLS === -->
+      <section id="two">
+        <div class="container">
+          <h3>Skills & Passions</h3> <!-- 🔧 Replace heading -->
+          <ul class="feature-icons">
+            <li class="icon solid fa-code">Microbial Wet Lab</li>
+            <li class="icon solid fa-cubes">Genetic Manipulation</li>
+            <li class="icon solid fa-book">Data Organization</li>
+            <li class="icon solid fa-book">Teaching</li>
+          </ul> <!-- 🔧 Add/Remove list items as needed -->
+        </div>
+      </section>
+      
+      <!-- === SECTION THREE: TEACHING === -->
+      <section id="three">
+        <div class="container">
+          <h3>Teaching</h3> <!-- 🔧 Replace heading -->
+          <p>My thoughts on teaching</p>
+          <div class="features">
+            <article>
+              <a href="#" class="image"><img src="images/pic01.jpg" alt="[DEFAULT: Project Image]" /></a>
+              <div class="inner">
+                <p>Laboratory in Genetics and Genomics</p>
+                <p>[DEFAULT: Project description goes here.]</p>
+              </div>
+            </article>
+            <!-- 🔧 Duplicate <article> block above to add more projects -->
+          </div>
+        </div>
+      </section>      
 
-			<!-- Research Section -->
-			<section id="intro" class="main">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>Research</h2> <!-- Custom: Section heading -->
-						</header>
-						<!-- Custom: Add your research description -->
-						<p>I study host-microbe interactions, focusing on how symbiotic bacteria influence their insect hosts. My research explores microbial diversity, evolution, and ecological function, particularly in sap-feeding insects.</p>
-						<ul class="actions">
-							<li><a href="research.html" class="button">Read More</a></li> <!-- Custom: Change or remove link -->
-						</ul>
-					</div>
-					<!-- Custom: Replace image -->
-					<span class="image"><img src="images/research.jpg" alt="Research Image" /></span>
-				</div>
-			</section>
+      <!-- === SECTION FOUR: ABOUT ME === -->
+      <section id="four">
+        <div class="container">
+          <h3>About Me</h3> <!-- 🔧 Replace heading -->
+          <p>I grew up in the suburbs of New Jersey and received my B.S. in Biology (Concentration: Microbiology, Minors: Fungal Biology & Infectious Disease) from Cornell University in Ithaca, NY. I decided to stay at Cornell to pursue my Ph.D. in Microbiology, where I am currently finishing my second year and preparing for my A-exam. In my free time, I enjoy cooking, gardening, and wandering around the woods with my dog, Kai, in search of cool bugs and mushrooms!</p>
+          <div class="features">
+            <a href="#" class="image"><img src="images/kai.jpg" alt="my dog, Kai" height="300" /></a>
+            <a href="#" class="image"><img src="images/cool_moth.jpg" alt="a cool moth" height="300" /></a>
+            <!-- 🔧 Duplicate <article> block above to add more projects -->
+          </div>
+        </div>
+      </section>
 
-			<!-- Skills Section -->
-			<section id="first" class="main special">
-				<header class="major">
-					<h2>Skills</h2> <!-- Custom: Section heading -->
-				</header>
-				<ul class="features">
-					<li>
-						<span class="icon solid major style1 fa-dna"></span>
-						<h3>Molecular Techniques</h3>
-						<p>Experienced in DNA extraction, PCR, qPCR, and cloning for microbial and insect studies.</p>
-					</li>
-					<li>
-						<span class="icon major style3 fa-microscope"></span>
-						<h3>Microscopy</h3>
-						<p>Proficient in fluorescence and light microscopy, image capture, and analysis using ImageJ and Fiji.</p>
-					</li>
-					<li>
-						<span class="icon major style5 fa-code"></span>
-						<h3>Bioinformatics</h3>
-						<p>Skilled in genome assembly, metagenomics, and microbial community analysis using R and Python.</p>
-					</li>
-				</ul>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="skills.html" class="button">See More</a></li> <!-- Custom: Optional link -->
-					</ul>
-				</footer>
-			</section>
+      <!-- === SECTION FIVE: CONTACT === -->
+      <section id="five">
+        <div class="container">
+          <h3>Contact Me</h3>
+          <p>Please be welcome to contact me via email at zlr6@cornell.edu</p>
+        </div>
+      </section>
 
-			<!-- About Me Section -->
-			<section id="second" class="main special">
-				<header class="major">
-					<h2>About Me</h2>
-					<p>I’m Zahavah (Havi) Rojer, a Ph.D. candidate at Cornell University. My passion lies in understanding how microbes shape the biology and ecology of their hosts.</p>
-				</header>
-				<ul class="statistics">
-					<li class="style1"><span class="icon solid fa-graduation-cap"></span><strong>Cornell</strong> Ph.D. Student</li>
-					<li class="style2"><span class="icon fa-flask"></span><strong>5+</strong> Years in Research</li>
-					<li class="style3"><span class="icon solid fa-users"></span><strong>10+</strong> Collaborators</li>
-					<li class="style4"><span class="icon solid fa-globe"></span><strong>3</strong> Field Sites</li>
-					<li class="style5"><span class="icon fa-heart"></span><strong>1</strong> Passion for Microbes</li>
-				</ul>
-				<p class="content">Outside of lab work, I enjoy hiking, teaching, and advocating for inclusive practices in science. I'm always excited to connect with researchers across disciplines.</p>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="about.html" class="button">More About Me</a></li>
-					</ul>
-				</footer>
-			</section>
+    </div>
 
-			<!-- Contact Section -->
-			<section id="cta" class="main special">
-				<header class="major">
-					<h2>Contact</h2>
-					<p>If you’re interested in my research, want to collaborate, or just want to say hello, feel free to reach out!</p>
-				</header>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="mailto:zahavah.rojer@cornell.edu" class="button primary">Email Me</a></li>
-						<li><a href="https://www.linkedin.com/in/zahavah-rojer" class="button">LinkedIn</a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- === FOOTER SECTION === -->
+    <section id="footer">
+      <div class="container">
+        <p>&copy; Zahavah Rojer. Site design by <a href="http://html5up.net">HTML5 UP</a>.</p>
+      </div>
+    </section>
 
-		</div>
+  </div>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<section>
-				<!-- Custom: Add footer message or summary -->
-				<h2>Thank you for visiting</h2>
-				<p>Stay curious, stay connected. You can also explore my publications and collaborations by reaching out.</p>
-				<ul class="actions">
-					<li><a href="publications.html" class="button">Publications</a></li>
-				</ul>
-			</section>
-			<section>
-				<!-- Custom: Update contact info -->
-				<h2>Contact Details</h2>
-				<dl class="alt">
-					<dt>Email</dt>
-					<dd><a href="mailto:zahavah.rojer@cornell.edu">zahavah.rojer@cornell.edu</a></dd>
-				</dl>
-				<!-- Custom: Social profiles -->
-				<ul class="icons">
-					<li><a href="https://twitter.com/yourhandle" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-					<li><a href="https://github.com/yourprofile" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-					<li><a href="https://linkedin.com/in/zahavah-rojer" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
-				</ul>
-			</section>
-			<p class="copyright">&copy; Zahavah Rojer. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>
-		</footer>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+  <!-- === JS Scripts === -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
