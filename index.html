@@ -11,74 +11,6 @@
   <!-- ✅ Your Main Stylesheet -->
   <link rel="stylesheet" href="assets/css/main.css" />
 
-  <!-- ✅ Easy to edit embedded styles -->
-  <style>
-    /* === BASE PAGE STYLES === */
-    body {
-      font-family: 'Source Sans Pro', sans-serif; /* 🔧 Change font family */
-      background: #703a75;                         /* 🔧 Page background color */
-      color: #6a3f22;                                 /* 🔧 Default text color */
-      margin: 0;
-    }
-
-    h1, h2, h3 {
-      color: #6a3f22;                                 /* 🔧 Heading text color */
-    }
-
-    a {
-      color: #6a3f22;                              /* 🔧 Link color */
-    }
-
-    a:hover {
-      color: #6a3f22;                              /* 🔧 Link hover color */
-    }
-
-    /* === HEADER / SIDEBAR === */
-    #header {
-      background: #703a75;                         /* 🔧 Header background */
-      color: #ffffff;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    #header a {
-      color: #6a3f22;                              /* 🔧 Header link color */
-    }
-
-    /* === FOOTER === */
-    #footer {
-      background: #703a75;                         /* 🔧 Footer background */
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-
-    /* === BUTTONS === */
-    .button.primary {
-      background: #0077cc;                         /* 🔧 Button color */
-      color: white;
-      padding: 0.5em 1.5em;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-    }
-
-    .button.primary:hover {
-      background: #005fa3;
-    }
-
-    /* === MAIN IMAGE === */
-    .image.main img {
-      max-height: 300px;                           /* 🔧 Adjust banner height */
-      width: 100%;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-
-    .container {
-      padding: 2rem;
-    }
-  </style>
 </head>
 <body>
 
@@ -88,14 +20,14 @@
       <span class="image avatar"><img src="images/avatar.jpg" alt="[DEFAULT: Avatar Image]" /></span> <!-- 🔧 Replace with your image -->
       <h1 id="logo"><a href="#">Zahavah (Havi) Rojer</a></h1> <!-- 🔧 Your Name -->
       <p>
-      <a href="https://pronouns.org/they-them">pronouns: they/them</a> <br> Ph.D. Student in Microbiology <br> Hendry Lab <br> Cornell University
+      <a href="https://pronouns.org/they-them"> pronouns: they/them </a> <br></p>
+      <p> Ph.D. Student in Microbiology <br> Hendry Lab <br> Cornell University
       </p> <!-- 🔧 Add your own intro -->
     </header>
     <nav id="nav">
       <ul>
         <li><a href="#one" class="active">Research</a></li>
-        <li><a href="#two">Skills & Passions</a></li>
-        <li><a href="#three">Teaching</a></li>
+        <li><a href="#two">Teaching & Mentoring</a></li>
         <li><a href="#three">About Me</a></li>
         <li><a href="#four">Contact</a></li>
       </ul>
@@ -113,56 +45,51 @@
         </div>
         <div class="container">
             <h3>Research</h3> <!-- 🔧 Update heading -->
-          <p>I study host-microbe interactions, focusing on how symbiotic bacteria influence their insect hosts. My research explores microbial diversity, evolution, and ecological function, particularly in sap-feeding insects.</p> <!-- 🔧 Replace text -->
-        </div>
-      </section>
-
-      <!-- === SECTION TWO: SKILLS === -->
-      <section id="two">
-        <div class="container">
-          <h3>Skills & Passions</h3> <!-- 🔧 Replace heading -->
-          <ul class="feature-icons">
-            <li class="icon solid fa-code">Microbial Wet Lab</li>
-            <li class="icon solid fa-cubes">Genetic Manipulation</li>
-            <li class="icon solid fa-book">Data Organization</li>
-            <li class="icon solid fa-book">Teaching</li>
-          </ul> <!-- 🔧 Add/Remove list items as needed -->
+          <p>I study host-microbe interactions, focusing on how symbiotic bacteria influence their insect hosts. My current research explores the ecology and function of phyllosphere bacteria in aphids.</p> <!-- 🔧 Replace text -->
         </div>
       </section>
       
-      <!-- === SECTION THREE: TEACHING === -->
-      <section id="three">
-        <div class="container">
-          <h3>Teaching</h3> <!-- 🔧 Replace heading -->
-          <p>My thoughts on teaching</p>
-          <div class="features">
-            <article>
-              <a href="#" class="image"><img src="images/pic01.jpg" alt="[DEFAULT: Project Image]" /></a>
-              <div class="inner">
-                <p>Laboratory in Genetics and Genomics</p>
-                <p>[DEFAULT: Project description goes here.]</p>
-              </div>
-            </article>
-            <!-- 🔧 Duplicate <article> block above to add more projects -->
-          </div>
-        </div>
-      </section>      
+      <!-- === SECTION TWO: TEACHING === -->
+<section id="two">
+  <div class="container">
+    <h3>Teaching & Mentoring</h3>
+    <p><i>I am passionate about training the next generation of researchers.</i></p>
+<div class="features" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+  <div style="flex: 1 1 45%;">
+    <h4>Laboratory in Genetics and Genomics</h4>
+    <p>I have been a teaching assistant for the Laboratory in Genetics and Genomics course (BioMG 2801) for the last five years, in two of which I taught as a graduate student.</p>
+  </div>
+  <div style="flex: 1 1 45%;">
+    <h4>Undergraduate Mentoring</h4>
+    <p>For the past semester, I have been mentoring an undergraduate student in our lab, and am now working with him to perform a summer experiment through the CIHMID URE program at Cornell.</p>
+  </div>
+</div>
+  </div>
+</section>    
 
-      <!-- === SECTION FOUR: ABOUT ME === -->
+      <!-- === SECTION THREE: ABOUT ME === -->
+<section id="three">
+  <div class="container">
+    <h3>About Me</h3>
+        <p>
+          I grew up in the suburbs of New Jersey and received my B.S. in Biology (Concentration in Microbiology; Minors in Fungal Biology & Infectious Disease) from Cornell University in Ithaca, NY. I decided to stay at Cornell to pursue my Ph.D. in Microbiology, where I am currently finishing my second year and preparing for my A-exam. In my free time, I enjoy cooking, gardening, and wandering around the woods with my dog, Kai, in search of cool bugs and mushrooms!
+        </p>
+        <img src="images/havi_kai.png" alt="my dog, Kai" height="300" style="display: block; margin: 0 auto;"/>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+      <div style="flex: 1 1 50%;">
+        <p>
+          I am a proud member of the LGBTQ+ community and stand in solidarity with other marginalized groups.
+        </p>
+      </div>
+      <div style="flex: 1 1 40%;">
+        <img src="images/pride.jpg" alt="pride flag" height="100" />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- === SECTION FOUR: CONTACT === -->
       <section id="four">
-        <div class="container">
-          <h3>About Me</h3> <!-- 🔧 Replace heading -->
-          <p>I grew up in the suburbs of New Jersey and received my B.S. in Biology (Concentration: Microbiology, Minors: Fungal Biology & Infectious Disease) from Cornell University in Ithaca, NY. I decided to stay at Cornell to pursue my Ph.D. in Microbiology, where I am currently finishing my second year and preparing for my A-exam. In my free time, I enjoy cooking, gardening, and wandering around the woods with my dog, Kai, in search of cool bugs and mushrooms!</p>
-          <div class="features">
-            <a href="#" class="image"><img src="images/kai.jpg" alt="my dog, Kai" height="300" /></a>
-            <a href="#" class="image"><img src="images/cool_moth.jpg" alt="a cool moth" height="300" /></a>
-            <!-- 🔧 Duplicate <article> block above to add more projects -->
-          </div>
-        </div>
-      </section>
-
-      <!-- === SECTION FIVE: CONTACT === -->
-      <section id="five">
         <div class="container">
           <h3>Contact Me</h3>
           <p>Please be welcome to contact me via email at zlr6@cornell.edu</p>
@@ -173,6 +100,14 @@
 
     <!-- === FOOTER SECTION === -->
     <section id="footer">
+      <style>
+  	a {
+      color: #fff !important;
+    }
+    a:hover {
+      color: #fff !important;
+    }
+  </style>
       <div class="container">
         <p>&copy; Zahavah Rojer. Site design by <a href="http://html5up.net">HTML5 UP</a>.</p>
       </div>
